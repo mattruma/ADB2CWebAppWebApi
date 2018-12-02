@@ -1,0 +1,56 @@
+﻿@page
+@model WebApp.Pages.SecureModel
+@{
+    ViewData["Title"] = "Secure";
+}
+<h2>@ViewData["Title"]</h2>
+<table class="table-hover table-condensed table-striped">
+    <tr>
+        <th>Key</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>AuthenticationResultAccessToken</td>
+        <td>@ViewData["AuthenticationResultAccessToken"]</td>
+    </tr>
+    <tr>
+        <td>AuthenticationResultIdToken</td>
+        <td>@ViewData["AuthenticationResultIdToken"]</td>
+    </tr>
+    <tr>
+        <td>AuthenticationResultScopes</td>
+        <td>@ViewData["AuthenticationResultScopes"]</td>
+    </tr>
+    <tr>
+        <td>AuthenticationResultUser</td>
+        <td>@ViewData["AuthenticationResultUser"]</td>
+    </tr>
+    <tr>
+        <td>ResponsePayload</td>
+        <td>@ViewData["ResponsePayload"]</td>
+    </tr>
+    <tr>
+        <td>AzureAdB2COptionsClientId</td>
+        <td>@ViewData["AzureAdB2COptionsClientId"]</td>
+    </tr>
+    <tr>
+        <td>AzureAdB2COptionsClientSecret</td>
+        <td>@ViewData["AzureAdB2COptionsClientSecret"]</td>
+    </tr>
+    <tr>
+        <td>AzureAdB2COptionsAuthority</td>
+        <td>@ViewData["AzureAdB2COptionsAuthority"]</td>
+    </tr>
+    <tr>
+        <td>AzureAdB2COptionsRedirectUri</td>
+        <td>@ViewData["AzureAdB2COptionsRedirectUri"]</td>
+    </tr>
+    <tr>
+        <td>AzureAdB2COptionsApiUrl</td>
+        <td>@ViewData["AzureAdB2COptionsApiUrl"]</td>
+    </tr>
+    <tr>
+        <td>AzureAdB2COptionsApiScopes</td>
+        <td>@ViewData["AzureAdB2COptionsApiScopes"]</td>
+    </tr>
+</table>

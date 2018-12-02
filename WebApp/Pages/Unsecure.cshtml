@@ -1,0 +1,16 @@
+﻿@page
+@model WebApp.Pages.UnsecureModel
+@{
+    ViewData["Title"] = "Unsecure";
+}
+<h2>@ViewData["Title"]</h2>
+<table class="table-hover table-condensed table-striped">
+    <tr>
+        <th>Key</th>
+        <th>Value</th>
+    </tr>
+    <tr>
+        <td>ResponsePayload</td>
+        <td>@ViewData["ResponsePayload"]</td>
+    </tr>
+</table>
